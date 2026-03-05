@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+
+  notes-app:
+    container_name: notes-app
+    build: .
+    ports:
+      - "80:80"
+    restart: always
